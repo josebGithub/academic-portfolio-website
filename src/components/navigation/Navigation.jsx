@@ -6,6 +6,8 @@ import {MdWork} from 'react-icons/md'
 import {AiOutlineFileSearch} from 'react-icons/ai'
 import {BiMessageDetail} from 'react-icons/bi'
 import{useState} from 'react'
+import {TbTools} from 'react-icons/tb'
+
 
 const Navigation = () => {
   const [activeNav, setActiveNav] = useState('#')
@@ -13,8 +15,9 @@ const Navigation = () => {
     <nav>
       <a href="#" onClick={() => setActiveNav('#')} classname={activeNav === '#' ? 'active' : ''}><TiHomeOutline/></a>
       <a href="#about" onClick={() => setActiveNav('#about')} classname={activeNav === '#about' ? 'active' : ''}><TiUser/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} classname={activeNav === '#experience' ? 'active' : ''}><MdWork/></a>
       <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} classname={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineFileSearch/></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} classname={activeNav === '#experience' ? 'active' : ''}><MdWork/></a>
+      <a href="#skills" onClick={() => setActiveNav('#skills')} classname={activeNav === '#skills' ? 'active' : ''}><TbTools/></a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} classname={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail/></a>
     </nav>
   )
