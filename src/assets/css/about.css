@@ -6,7 +6,7 @@
 
 .about__me {
    width: 100%;
-   aspect-ratio: 2/2.9;
+   aspect-ratio: 2/2.6;
    border-radius: 2rem;
    background: linear-gradient(
     45deg,
@@ -23,7 +23,6 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
-
 }
 
 .about__me-image:hover{
