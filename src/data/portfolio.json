@@ -1,0 +1,75 @@
+{
+    "data" : [
+      {
+        "id": 1,
+        "image": "portfolio_main_page.jpg",
+        "title":"My Portfolio (Self-Study)",
+        "description": "This is my personal portfolio, this is a self-study developed project!",
+        "skills": "ReactJS,CSS3,HTML5,Express,MongoDB",
+        "github": "https://github.com/josebGithub/my-portfolio-website",
+        "docs": "https://github.com/josebGithub/my-portfolio-website#readme",
+        "demo": "https://vigilant-neumann-1f4d3d.netlify.app"
+      },
+      {
+        "id": 2,
+        "image": "CS602_home_page.jpg",
+        "title":"Sweet Bakery (Project-CS602)",
+        "description": "It is an online bakery store for the customer to search the products and add the products to the cart and check out. Administrator can login into the application to add the product, edit and delete the product as well as edit or delete the orders of the customer.",
+        "skills": "NodeJS,CSS3,HTML5,Express,MongoDB",
+        "github": "https://github.com/josebGithub/Shopping-Website",
+        "docs": "https://github.com/josebGithub/Shopping-Website#readme",
+        "demo": "none"
+      },
+      {
+        "id": 3,
+        "image": "CS601_home_page.jpg",
+        "title":"My Portfolio (Project-CS601)",
+        "description": "A portfolio project that emphasis on front end. It is a responsive website and uses grid, flex and different CSS properties to do my layouts. ES6 is also used in the javascripts and HTML pages. Data is stored in the JSON files.",
+        "skills": "NodeJS,Vue,CSS3 HTML5,ES6",
+        "github": "https://github.com/josebGithub/METCS601_Project",
+        "docs": "https://github.com/josebGithub/METCS601_Project#readme",
+        "demo": "https://vigilant-neumann-1f4d3d.netlify.app"
+      },
+      {
+        "id": 4,
+        "image": "myfoodmanager_home_page.jpg",
+        "title":"My Food Manager (Project-CS683)",
+        "description": "An Android application that allows users to manage their food, this app can keep track the inventory of the foods, the expiration date of the foods and the cost of the foods and provides notifications when the food items are going to expire.",
+        "skills": "Android Studio,Java,Gradle",
+        "github": "https://github.com/CS683-Mobile-Apps/cs683-project-josebGithub",
+        "docs": "https://github.com/CS683-Mobile-Apps/cs683-project-josebGithub#readme",
+        "demo": "https://drive.google.com/file/d/1c5L6N_0j0H8BgQXafM7Q67njThVG9yQo/view?usp=sharing"
+      },
+      {
+        "id": 5,
+        "image": "vehicle_builder_home_page.jpg",
+        "title":"Vehicle Builder (Project-CS665)",
+        "description": "It is an application that allows the user to add any combination of vehicle options to the vehicle, it will return the total price of the vehicle to the user. ",
+        "skills": "Software Design Principles,UML,Design patterns,Java, Apache Maven",
+        "github": "https://github.com/metcs/met-cs665-assignment-project-josebGithub",
+        "docs": "https://github.com/metcs/met-cs665-assignment-project-josebGithub#readme",
+        "demo": "none"
+      },
+      {
+        "id": 6,
+        "image": "mydiethub_home_page.jpg",
+        "title":"My Diet Hub(Project-CS673)",
+        "description": "It is an application that help the user to calculate their daily calorie counts, user can do the CRUD operations for their meals after login into the application. An admin can manage the user includes query, update and delete the user.",
+        "skills": "Python-Flask,USDA API,MVC,HTML5,CSS3,Jinja2,SQLite,Heroku",
+        "github": "https://github.com/BUMETCS673/BUMETCS673OLSum21P4",
+        "docs": "https://github.com/BUMETCS673/BUMETCS673OLSum21P4#readme",
+        "demo": "none"
+      },
+      {
+        "id": 7,
+        "image": "my_python_projects.jpg",
+        "title":"Python Projects",
+        "description": "Five games namely Stopwatch,Pong,Memory,Blackjack and Spaceship are written in Python using CodeSkulptor",
+        "skills": "Python,CodeSkulptor",
+        "github": "none",
+        "docs": "none",
+        "demo": "http://jbutprojects.blogspot.com/"
+      }
+
+    ]
+}

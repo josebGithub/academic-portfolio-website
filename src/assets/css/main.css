@@ -11,19 +11,21 @@
 }
 
 :root {
-    --color-bg: #c0e6f4;
+   --color-bg: #c0e6f4; 
+   /**--color-bg: #61a5c2;  **/
     --color-bg-variant:#0ab6f4;
-    /*--color-primary: #03cef6fc; */
-    --color-primary: #048ff9d2;
+  /**  --color-primary: #03cef6fc; **/
+    --color-primary: #048ff9d2; 
     --color-primary-variant: rgba(77, 181,255, 0.4); 
     --color-light: #d3ecf4;
 
     --color-white: #fff;
-    --color-pink: rgb(237, 150, 205);
+    --color-pink: rgb(237, 150, 205); 
+    /** --color-pink: #f56476; **/
     --color-gray: rgba(112, 103, 103, 0.6);
     --container-width-lg: 75%;   /* container width for large size screen */
     --container-width-md: 86%;    /* container width for medium size screen */
-    --container-width-ms: 90%;    /* container width for the small size screen */
+    --container-width-sm: 90%;    /* container width for the small size screen */
 
     --transition: all 400ms ease;
 }
@@ -39,7 +41,7 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
-    color: var(--color-pink);  /* text color */
+    color: var(--color-white);  /* text color */
     line-height: 1.7;
     /*background-image: url(../images/background.png);*/
 }
@@ -60,7 +62,7 @@ h1 {
 
 section {
     margin-top: 8rem;
-    height: 100vh;
+   /** height: 100vh; **/
 }
 
 section > h2, section > h5 {

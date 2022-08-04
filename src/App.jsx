@@ -4,10 +4,9 @@ import Navigation from './components/navigation/Navigation'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
 import Portfolio from './components/portfolio/Portfolio'
-/*import Skills from './components/skills/Skills.jsx.bk'*/
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import SkillsDetails from './components/skills/SkillDetails'
+import SkillDetails from './components/skills/Skills'
 
 const App = () => {
   return (
@@ -18,10 +17,10 @@ const App = () => {
         <Portfolio />
         <Experience />
         {/*<Skills /> */ }
-        <SkillsDetails title="Languages"/>
-        <SkillsDetails title="Front-End"/>
-        <SkillsDetails title="Back-End"/>
-        <SkillsDetails title="VCS"/>
+        <SkillDetails title="Languages"/>
+        <SkillDetails title="Front-End"/>
+        <SkillDetails title="Back-End"/>
+        <SkillDetails title="VCS"/>
         <Contact />
         <Footer />
     

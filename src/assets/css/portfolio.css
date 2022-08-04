@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+.portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portfolio__item {
+    background: var(--color-gray);
+    width: 400px;
+    height: 600px;
+    padding: 1.57rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio__item:hover {
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.portfolio__item-image > img {
+     border-radius: 1.5rem;
+     object-fit: fit;
+     width: 340px;
+     height: 227px; 
+}
+
+.portfolio__item h3 {
+    text-align: center ;
+    color: var(--color-pink);
+    font-weight: bold;
+}
+ 
+.portfolio__item-description > p{
+    font-size: 11px;
+    color: black;
+    text-align: left;
+    font-size: 0.8rem;
+    padding:0;
+    margin:0;
+}
+
+.portfolio__item-cta {
+        display: flex;
+        gap: 0.5rem;
+        padding: 1rem;
+}
+
+
+
+/* MEDIA QUERIES - MEDIUM DEVICES */
+@media screen and (max-width: 1024px) {
+   
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+   }
+
+ }
+ 
+ /* MEDIA QUERIES - SMALL DEVICES */
+ @media screen and (max-width: 600px) {
+
+    .portfolio__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+   
+  }
