@@ -1,6 +1,9 @@
 import React from 'react'
 import '../../assets/css/portfolio.css'
 import PortfolioData from "../../data/portfolio.json";
+import {BsGithub} from 'react-icons/bs';
+import {CgFileDocument} from 'react-icons/cg';
+import {MdSmartDisplay} from 'react-icons/md';
 
 const Portfolio = () => {
   return (
@@ -23,15 +26,19 @@ const Portfolio = () => {
                       {item.description}
                     </p>
                   </div>
+                  <div className='portfolio__item-skills'>
+                    {item.skills.map((skill) => <button class="small-circle">{skill}</button>
+                    )}
+                  </div>
                   <div className='portfolio__item-cta'>
                       { (item.github !="none") ?
-                          <a href={item.github} className='btn' target='_blank'>Github</a> :null}
+                          <a href={item.github} className='btn-small ' target='_blank'><BsGithub size={'1.1rem'}/> GITHUB</a> :null}
                     
                       { (item.docs !="none") ?
-                          <a href={item.docs} className='btn btn-primary' target='_blank'>Document</a> : null}
+                          <a href={item.docs} className='btn-small' target='_blank'><CgFileDocument size={'1rem'}/> DOCS</a> : null}
 
                       { (item.demo !="none") ?
-                          <a href={item.demo} className='btn btn-primary' target='_blank'>Demo</a> : null}
+                          <a href={item.demo} className='btn-small' target='_blank'><MdSmartDisplay size={15}/> DEMO</a> : null}
                   </div>
                   
               </article>

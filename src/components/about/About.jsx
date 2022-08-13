@@ -41,7 +41,7 @@ const About = () => {
           </div>
               <p>
                 Hello! My name is Josephine But. I have 9+ years of work experiences as a Software Developer/Tester. Currently, I graduated from my Master Of Science in Software Development to pick up the new technical skills and methodologies in Software Development.
-                I love to do programming and keep on learning new technologies and programming languages, the rewards come relatively quickly after you fixing the mistakes or solve a problem. In In my spare time, I enjoy to go to the gym, making candles, cooking and baking. 
+                I love to do programming and keep on learning new technologies and programming languages, the rewards come relatively quickly after you fixing the mistakes or solve a problem. In my spare time, I enjoy to go to the gym, making candles, cooking and baking. 
               </p>
 
               <a href="#contact" className='btn btn-primary'>Contact Me</a>

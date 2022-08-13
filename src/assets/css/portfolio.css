@@ -40,14 +40,21 @@
     color: black;
     text-align: left;
     font-size: 0.8rem;
-    padding:0;
-    margin:0;
+    height: 8rem;
 }
 
+.portfolio__item-skills {
+    display: flex;
+    font-size: 11px;
+    color: var(--color-dark-blue);
+    flex-wrap: wrap;
+}
+
+
+
 .portfolio__item-cta {
-        display: flex;
-        gap: 0.5rem;
-        padding: 1rem;
+    display: flex;
+    gap: 0.5rem;
 }
 
 
