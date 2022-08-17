@@ -41,9 +41,18 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+   /* background: var(--color-bg); */
     color: var(--color-white);  /* text color */
     line-height: 1.7;
+    /*background: linear-gradient(#e56b70,#f56476,#61a5c2);*/
+    background: linear-gradient(#c870894e,#ef7986,#61a5c2);
+    background-color: rgba(0, 0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgba(238, 157, 211, 0.429), rgb(227, 112, 125), rgb(97, 165, 194)); 
+    background-size: auto;
     /*background-image: url(../images/background.png);*/
 }
 
