@@ -9,7 +9,6 @@ const Portfolio = () => {
   return (
       <section id='portfolio'>
         <h5>My Portfolio</h5>
-        <h2>Show my work</h2>
   
         <div className = "container portfolio__container">
           {
@@ -32,13 +31,13 @@ const Portfolio = () => {
                   </div>
                   <div className='portfolio__item-cta'>
                       { (item.github !="none") ?
-                          <a href={item.github} className='btn-small ' target='_blank'><BsGithub size={'1.1rem'}/> GITHUB</a> :null}
+                          <a href={item.github} className='btn btn-small' target='_blank'><BsGithub size={'1.1rem'}/> GITHUB</a> :null}
                     
                       { (item.docs !="none") ?
-                          <a href={item.docs} className='btn-small' target='_blank'><CgFileDocument size={'1rem'}/> DOCS</a> : null}
+                          <a href={item.docs} className='btn btn-small' target='_blank'><CgFileDocument size={'1rem'}/> DOCS</a> : null}
 
                       { (item.demo !="none") ?
-                          <a href={item.demo} className='btn-small' target='_blank'><MdSmartDisplay size={15}/> DEMO</a> : null}
+                          <a href={item.demo} className='btn btn-small' target='_blank'><MdSmartDisplay size={15}/> DEMO</a> : null}
                   </div>
                   
               </article>

@@ -1,7 +1,14 @@
+#skills {
+   background-color: rgb(136, 139, 177);
+}
 .skills__container {
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+   /* padding-bottom: 2rem !important;*/
 }
 
 
@@ -14,17 +21,18 @@
     border-bottom-right-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    height: 8rem;  
 }
 
 
 .skills__container > div:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-light);
     cursor: default;
 }
 
 .skills__title {
-    background-color: var(--color-bg-variant); 
+    background-color: var(--color-dark-blue);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,19 +60,20 @@ div {
     flex-direction: column; 
     align-items: center;
     justify-content: center;
-    width: 64px; 
+    width: 80px; 
     padding-left: 1rem;
 
 }
 
 .skills__details img {
+   margin: 1.7rem 1rem 1rem;
    height: 45px;
    width: 45px;
-   object-fit: cover;
+   /*object-fit: cover; */
 }
 
 .skills__details small {
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
     font-weight: bold;
 }
@@ -76,28 +85,6 @@ div {
         gap:0;
     }
 
-    .skills__container > div {
-        margin-left: -0.5rem;
-    }
-  
-    .skills__content {
-        width: 95%;
-        margin: 0rem auto;
-    }
-
-   
-    .skills__details {
-        width: 45px; 
-        padding-left: 1rem;
-    }
-
-    .skills__title {
-        font-size: 10px;
-        flex-basis: 60px; 
-        overflow: hidden;
-        white-space:nowrap;
-    }
-   
  }
  
  /* MEDIA QUERIES - SMALL DEVICES */
@@ -117,12 +104,36 @@ div {
         width: 45px; 
         padding-left: 1rem;
     }
-
+   
     .skills__title {
-        font-size: 8px;
-        flex-basis: 20px; 
-        overflow: hidden;
+        font-size: 12px;
+        flex-basis: 100px;
         white-space:nowrap;
     }
    
 }
+
+
+/* MEDIA QUERIES - SMALLER DEVICES */
+@media screen and (max-width: 400px) {
+
+    .skills__title {
+        font-size: 10px;
+        flex-basis: 80px;
+        white-space:nowrap;
+        padding: 1rem;
+    }
+  }
+
+/* MEDIA QUERIES - SMALLEST DEVICES */
+@media screen and (max-width: 360px) {
+
+    .skills__title {
+        font-size: 8px;
+        flex-basis: 40px;
+        white-space:nowrap;
+        padding: 0rem;
+    }
+  }
+
+ 

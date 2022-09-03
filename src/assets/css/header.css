@@ -23,15 +23,15 @@ header {
 /* Socials Section - HSocials */
 .header__socials {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left:0;
-    bottom: 3rem;
+    left: 5rem;
+    bottom: 6rem;
 }
 
-.header__socials::after {
+.header__socials::before{
     content: '';
     width: 1px;
     height: 2rem;
@@ -56,8 +56,8 @@ header {
 
 .scroll_down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
+    right: 0.2rem;
+    bottom: 30rem;
     transform: rotate(90deg); 
     font-weight: 400;
     font-size: 1rem;

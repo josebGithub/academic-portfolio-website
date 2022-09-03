@@ -14,25 +14,33 @@
    --color-bg: #c0e6f4; 
    /**--color-bg: #61a5c2;  **/
     --color-bg-variant:#0ab6f4;
-  /**  --color-primary: #03cef6fc; **/
-    --color-primary: #048ff9d2; 
+    --color-primary: #098ff5b6; 
     --color-primary-variant: rgba(77, 181,255, 0.4); 
     --color-light: #d3ecf4;
     --color-dark-blue: #076cb8d2;
 
     --color-white: #fff;
-    --color-pink: rgb(237, 150, 205); 
+    --color-pink: rgb(248, 160, 217); 
     /** --color-pink: #f56476; **/
     --color-gray: rgba(112, 103, 103, 0.6);
-    --container-width-lg: 75%;   /* container width for large size screen */
-    --container-width-md: 86%;    /* container width for medium size screen */
-    --container-width-sm: 90%;    /* container width for the small size screen */
+    --container-width-lg: 80%;   /* container width for large size screen */
+    --container-width-md: 90%;    /* container width for medium size screen */
+    --container-width-sm: 100%;    /* container width for the small size screen */
 
     --transition: all 400ms ease;
 }
 
+#root {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    overflow-x: hidden;
+}
+
+
 html {
     scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -40,27 +48,30 @@ html {
 }
 
 body {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
     font-family: 'Poppins', sans-serif;
    /* background: var(--color-bg); */
     color: var(--color-white);  /* text color */
     line-height: 1.7;
-    /*background: linear-gradient(#e56b70,#f56476,#61a5c2);*/
-    background: linear-gradient(#c870894e,#ef7986,#61a5c2);
+    background: linear-gradient(#e56b70,#f56476,#61a5c2);
+    background: linear-gradient(#ec6f924e,#ef7986,#61a5c2);
     background-color: rgba(0, 0, 0, 0);
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(238, 157, 211, 0.429), rgb(227, 112, 125), rgb(97, 165, 194)); 
-    background-size: auto;
+    /*background-image: linear-gradient(rgba(238, 157, 211, 0.429), rgb(227, 112, 125), rgb(97, 165, 194)); */
+    background-image: linear-gradient(rgba(208, 143, 186, 0.429), rgb(227, 112, 125), rgb(97, 165, 194));
+    background-size: cover;
     /*background-image: url(../images/background.png);*/
 }
 
+
 .container {
-    width : var(--container-width-lg);
-    margin-left: 5rem;
-    margin: 0, auto;
-}
+   width : var(--container-width-lg); 
+} 
+
 
 h1,h2,h3.h4,h5 {
     font-weight: 500;
@@ -70,14 +81,27 @@ h1 {
     font-size: 2.5rem;
 }
 
-section {
-    margin-top: 8rem;
-   /** height: 100vh; **/
+h5 {
+    font-size: 3rem;
 }
+
+
+section {
+    padding-top: 2rem!important;
+    padding-bottom: 2em!important;
+}
+
+/*
+section {
+   margin-top: 8rem;
+   max-width: 100%;
+   margin-left: -0.3rem;;
+}
+*/
 
 section > h2, section > h5 {
     text-align: center;
-    color: var(--color-gray);
+    color: var(--color-white);
 }
 
 section > h2 {
@@ -87,6 +111,12 @@ section > h2 {
 
 .text-gray {
     color: var(--color-gray);
+}
+
+p {
+    margin: 2rem 0 2.6rem;
+    color: var(--color-gray);
+    text-align: left;
 }
 
 a {
@@ -102,7 +132,7 @@ a:hover {
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
+    padding: 0.75rem 1.2rem!important;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
@@ -122,16 +152,19 @@ a:hover {
 
 .btn-small {
     width: 30%;
+    height: 50%;
     text-align: center;
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
     background: var(--color-gray);
-    color: var(--color-pink);
+    color: var(--color-light);
     margin-top: 1rem;
+    margin-bottom: 1rem;
     font-size: 15px;
-    padding: 0.3rem;
+    padding: 0.3rem!important;
+
 }
 
 .small-circle {
@@ -150,11 +183,27 @@ img {
     object-fit: cover;
 }
 
+@media screen and (max-width: 1200px) {
+   
+    .container {
+        width: 95%;
+       }
+
+       section {
+        margin-top: 8rem;
+       }
+
+
+ }
+
+
+
 /* MEDIA QUERIES - MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
    .container {
     width: var(--container-width-md);
    }
+
    section {
     margin-top: 6rem;
    }

@@ -13,12 +13,17 @@ const Navigation = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} classname={activeNav === '#' ? 'active' : ''}><TiHomeOutline/></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} classname={activeNav === '#about' ? 'active' : ''}><TiUser/></a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} classname={activeNav === '#portfolio' ? 'active' : ''}><AiOutlineFileSearch/></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} classname={activeNav === '#experience' ? 'active' : ''}><MdWork/></a>
-      <a href="#skills" onClick={() => setActiveNav('#skills')} classname={activeNav === '#skills' ? 'active' : ''}><TbTools/></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} classname={activeNav === '#contact' ? 'active' : ''}><BiMessageDetail/></a>
+      <a href="#" onClick={() => setActiveNav('#')} classname={activeNav === '#' ? 'active' : ''} title="Home"><TiHomeOutline/></a>
+
+      <a href="#about" onClick={() => setActiveNav('#about')} classname={activeNav === '#about' ? 'active' : ''} title="About"><TiUser/></a>
+
+      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} classname={activeNav === '#portfolio' ? 'active' : ''}title="Portfolio"><AiOutlineFileSearch/></a>
+
+      <a href="#experience" onClick={() => setActiveNav('#experience')} classname={activeNav === '#experience' ? 'active' : ''} title="Experience"><MdWork/></a>
+
+      <a href="#skills" onClick={() => setActiveNav('#skills')} classname={activeNav === '#skills' ? 'active' : ''} title="Skills"><TbTools/></a>
+
+      <a href="#contact" onClick={() => setActiveNav('#contact')} classname={activeNav === '#contact' ? 'active' : ''} title="Contact"><BiMessageDetail/></a>
     </nav>
   )
 }

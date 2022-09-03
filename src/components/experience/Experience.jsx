@@ -8,7 +8,7 @@ import {FiBookOpen} from 'react-icons/fi'
 
 const experience = () => {
   return (
-    <section id='about'>
+    <section id='experience'>
       <h5>My Experience Timeline</h5>
       <h2>My Experience Details</h2>
    
@@ -44,7 +44,7 @@ const experience = () => {
     <p>
       Finished the following courses from Coursera:<br/>
       1. Introduction to Software Testing - University of Minnesota.<br/>
-      2. Programming Mobile Applications for ANdroid Handheld Systems - Univeresity of Maryland.<br/>
+      2. Programming Mobile Applications for Android Handheld Systems - Univeresity of Maryland.<br/>
       3. Computing with Data Analysis - John Hopkins University<br/> 
       4. An Introduction to Interactive Programming in Python - Rice University
     </p>
@@ -83,7 +83,7 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2002"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
+    contentStyle={{ padding: '1rem,1rem,1rem,1rem', background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
     contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
@@ -118,7 +118,7 @@ const experience = () => {
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
-    <h3 className="vertical-timeline-element-title">Software Developer/Tester(Contractor/Subcontractor)</h3>
+    <h3 className="vertical-timeline-element-title">Software Developer/Tester<br/>(Contractor/Subcontractor)</h3>
     <h4 className="vertical-timeline-element-subtitle">NewSys Solutions Limited(Canada)</h4>
     <p>
       1. Collected rquirements from users, analyzed them and applied them to the applications. Analyzed testing requirements and organized them into the documents. Wrote and executed test cases. Imported data and completed the data conversion from one platform to another.<br/>
