@@ -23,19 +23,19 @@ header {
 /* Socials Section - HSocials */
 .header__socials {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: center; 
     gap: 0.8rem;
-    position: absolute;
-    left: 5rem;
+    position: fixed; 
+    left: 0.3rem;
     bottom: 6rem;
 }
 
-.header__socials::before{
+.header__socials::after{
     content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+    width: 2px;
+    height: 4rem;
+    background: var(--color-bg); 
 }
 
 /* Myself */
@@ -57,11 +57,15 @@ header {
 .scroll_down {
     position: absolute;
     right: 0.2rem;
-    bottom: 30rem;
+    bottom: 14rem;
     transform: rotate(90deg); 
     font-weight: 400;
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
+
+
+
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {

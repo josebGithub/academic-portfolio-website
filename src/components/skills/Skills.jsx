@@ -1,12 +1,17 @@
 import React from 'react';
 import '../../assets/css/skills.css';
+import {AnimationOnScroll} from 'react-animation-on-scroll'
+import "animate.css/animate.min.css";
 import SkillsData from "../../data/skills.json";
 
 
 const Skills = () => {
     return (
         <section id='skills'>
-            <h5>My Skills</h5>
+            <AnimationOnScroll animateIn="animate__fadeInLeftBig"> 
+                <h5>My Skills</h5>
+            </AnimationOnScroll>
+           
                {Object.keys(SkillsData).map((key) => {
                 return SkillDetails(key)
                })

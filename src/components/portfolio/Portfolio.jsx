@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../assets/css/portfolio.css'
 import PortfolioData from "../../data/portfolio.json";
+import {AnimationOnScroll} from 'react-animation-on-scroll'
+import "animate.css/animate.min.css";
 import {BsGithub} from 'react-icons/bs';
 import {CgFileDocument} from 'react-icons/cg';
 import {MdSmartDisplay} from 'react-icons/md';
@@ -8,8 +10,10 @@ import {MdSmartDisplay} from 'react-icons/md';
 const Portfolio = () => {
   return (
       <section id='portfolio'>
-        <h5>My Portfolio</h5>
-  
+        <AnimationOnScroll animateIn="animate__fadeInLeftBig"> 
+           <h5>My Portfolio</h5>
+        </AnimationOnScroll>
+     
         <div className = "container portfolio__container">
           {
             PortfolioData.data.map((item) => {

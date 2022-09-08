@@ -1,11 +1,15 @@
 import React from 'react'
 import '../../assets/css/footer.css'
+import '../../assets/css/header.css'
 import {SiLinkedin} from 'react-icons/si'
 import {FaGithubSquare} from 'react-icons/fa'
+import HContact from '../header/HContact'
+import HSocials from '../header/HSocials'
 
 const Footer = () => {
   return (
     <footer>
+      {/*
       <a href="3" className='footer__logo'>Josephine</a>
 
         <ul className='permalinks'>
@@ -16,13 +20,19 @@ const Footer = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
+     */}
+      
+        <HSocials></HSocials>
+        {/*
         <div className="footer__socials">
             <a href="https://linkedin.com" target="_blank" rel="noreferrer"><SiLinkedin/></a>
             <a href="https://github.com" target="_blank" rel="noreferrer"><FaGithubSquare/></a>
         </div>
+         */}
 
+       
         <div className="footer__copyright">
-          <small>&copy; Josephine But Website. All rights reserved.</small>
+          <small>&copy; Designed and Built By Josephine But</small>
         </div>
     </footer>
   )

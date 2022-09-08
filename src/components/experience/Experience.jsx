@@ -1,5 +1,7 @@
 import React from 'react'
 import 'react-vertical-timeline-component/style.min.css';
+import {AnimationOnScroll} from 'react-animation-on-scroll'
+import "animate.css/animate.min.css";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import '../../assets/css/experience.css';
 import {MdWorkOutline} from 'react-icons/md';
@@ -9,16 +11,17 @@ import {FiBookOpen} from 'react-icons/fi'
 const experience = () => {
   return (
     <section id='experience'>
-      <h5>My Experience Timeline</h5>
-      <h2>My Experience Details</h2>
-   
+       <AnimationOnScroll animateIn="animate__fadeInLeftBig"> 
+            <h5>My Experience Timeline</h5>
+        </AnimationOnScroll>
+      
   <VerticalTimeline 
        className="vertical-timeline--animate vertical-timeline--one-column-left">
  
     <VerticalTimelineElement 
         className="vertical-timeline-element--education"
-        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+        contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)' }}
         date="Sept 2020 - Mar 2020"
         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
         icon={<IoSchoolOutline  />}
@@ -34,8 +37,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="April 2013 - July- 2020"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)' }}
     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
     icon={<FiBookOpen />}
   >
@@ -53,8 +56,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="Aug 2019 - Jan 2021"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)'}}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -68,8 +71,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--work"
     date="June 2004 - Nov 2007"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)'}}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -83,8 +86,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2002"
-    contentStyle={{ padding: '1rem,1rem,1rem,1rem', background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ padding: '1rem,1rem,1rem,1rem', background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)' }}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -98,8 +101,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="2000 - 2001"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)' }}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -113,8 +116,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1998 - 2000"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)' }}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -131,8 +134,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1995 - 1998"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins' }}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins' }}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)'}}
     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
     icon={<MdWorkOutline />}
   >
@@ -146,8 +149,8 @@ const experience = () => {
   <VerticalTimelineElement
     className="vertical-timeline-element--education"
     date="1992 - 1994"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff', fontFamily: 'Poppins'}}
-    contentArrowStyle={{ borderRight: '15px solid  rgb(33, 150, 243)' }}
+    contentStyle={{ background: 'rgb(	192, 226, 244)', color: '#fff', fontFamily: 'Poppins'}}
+    contentArrowStyle={{ borderRight: '15px solid  rgb(	192, 226, 244)'}}
     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
     icon={<IoSchoolOutline />}
   >

@@ -1,11 +1,16 @@
 
-
-
+#contact {
+    margin: 0;
+    padding-top: 0!important;
+    background-color: black;
+   
+}
 .container.contact__container {
     width: 80%;
     display: grid;
     grid-template-columns: 30% 60%;
     gap: 12%;
+    padding-top: 4rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -39,7 +44,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 1rem;
-    color: var(--color-dark-blue);
+    color: var(--color-bg-variant);
+}
+.contact__option a:hover {
+    color: var(--color-primary-variant);
 }
 
 form {
@@ -58,6 +66,16 @@ input, textarea {
     color: var(--color-white);
 
 }
+
+/** Scroll up to home **/
+.scroll_up {
+    position: absolute;
+    right: 0.2rem;
+    transform: rotate(90deg); 
+    font-weight: 400;
+    font-size: 1rem;
+} 
+
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {

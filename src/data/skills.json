@@ -55,9 +55,6 @@
   "VCS" : [
     {"imageUrl" : "git_original_wordmark_logo_icon_146510.png",
     "name" : "Git"
-    },
-    {"imageUrl" : "github_original_wordmark_logo_icon_146506.png",
-        "name" : "GitHub"
     }
   ]
 

@@ -1,14 +1,12 @@
 
 footer {
-    background: var(--color-primary);
-    padding: 3rem 0;
-    text-align: center;
+    background: black;
+    padding: 3rem 0; 
     font-size: 0.9rem;
-    margin-top: 7rem;
 }
 
 footer a {
-    color: var(--color-bg);
+    color: var(--color-bg)!important;
 }
 
 footer__logo {
@@ -50,8 +48,10 @@ footer__logo {
 
 .footer__copyright {
     margin-bottom: 4rem;
+    text-align: center; 
     color: var(--color-bg);
 }
+
 
 
 /* MEDIA QUERIES - SMALL DEVICES */

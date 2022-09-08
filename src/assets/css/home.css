@@ -155,7 +155,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 30%;
     margin-right: 30%;
     margin-left: 30%;  
@@ -168,11 +168,15 @@
     font-family: 'Square Peg', cursive;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 5%;
 }
 
-.container.home__container > button {
-    margin-right: 30%;
-    margin-left: auto;  
+.container.home__container > h3 {
+    font-weight: 300;
+    font-size: 3rem;
+    font-family: 'Square Peg', cursive;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-links  {
@@ -184,7 +188,7 @@
     color: #d868a2;
     padding: 1rem;
     row-gap: 1rem;
-    font-size: 20px; 
+    font-size: 1.5rem; 
     font-weight: 800;
     margin-left: auto;
     margin-right: auto;
@@ -195,37 +199,118 @@
    margin-right: auto;
 }
 
-.navbar {
+/*
+.my-logo {
      z-index: 1001;
      width: 100%;
      display: flex;
-     /*align-items: center;
-     justify-content: center; */
      height: 80px;
      background: transparent;
      top : 0px;
 
 }
+*/
 
 .my-logo {
     width: 15%;
+    transform: rotate(-30deg);
+    position: fixed;
 }
 
 .myname {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 2rem;
     color: var(--color-pink);
     font-family: 'Square Peg', cursive;
+    margin-left: 1rem;
 }
 
 /* MEDIA QUERIES - MEDIUM DEVICES */
 @media screen and (max-width: 1024px) {
-   
 
- }
+    .container.home__container {
+        margin-top: 5%;
+    }
+
+    .nav-links  {
+        flex-direction: column;
+    }
+
+ } 
  
- /* MEDIA QUERIES - SMALL DEVICES */
- @media screen and (max-width: 600px) {
+ /* MEDIA QUERIES - SMALLER DEVICES */
+ @media screen and (max-width: 540px) {
 
-   
+    .container.home__container {
+        margin-top: 0%;
+    }
+
+    .nav-links > a {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+} 
+
+ /* MEDIA QUERIES - SMALL DEVICES */
+ @media screen and (max-width: 390px) {
+
+    .container.home__container {
+        margin-top: -5%;
+    }
+
+
+    .container.home__container > p {
+        font-size: 2rem;
+    }
+
+    .container.home__container > h3 {
+        font-size: 2rem;
+    }
+
+    .nav-links > a {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
 }
+
+/* MEDIA QUERIES - SMALLEST DEVICES */
+@media screen and (max-width: 280px) {
+
+    .container.home__container {
+        margin-top: -23%;
+    }
+
+}
+
+/* MEDIA QUERIES - IPAD MINI DEVICES */
+@media screen and (device-width: 1024px) {
+
+    .container.home__container {
+        margin-top: 0%;
+    }
+
+ } 
+
+ /* MEDIA QUERIES - Nest Hub DEVICES */
+@media screen and (device-width: 1024px) and (device-height: 600px) {
+
+    .container.home__container {
+        margin-top: -5%;
+    }
+
+
+    .container.home__container > p {
+        font-size: 2rem;
+    }
+
+    .container.home__container > h3 {
+        font-size: 2rem;
+    }
+
+    .nav-links > a {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+ } 

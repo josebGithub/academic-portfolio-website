@@ -1,6 +1,8 @@
 #skills {
-   background-color: rgb(136, 139, 177);
+   background-color: #928295;
+   padding-bottom: 5rem!important;
 }
+
 .skills__container {
     margin-top: 2rem;
     display: flex;
@@ -32,7 +34,7 @@
 }
 
 .skills__title {
-    background-color: var(--color-dark-blue);
+    background-color: var(--color-bg);
     display: flex;
     align-items: center;
     justify-content: center;

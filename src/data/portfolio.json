@@ -5,7 +5,7 @@
         "image": "portfolio_main_page.jpg",
         "title":"My Portfolio (Self-Study)",
         "description": "This is my personal portfolio, this is a self-study developed project!",
-        "skills": ["ReactJS","CSS3","HTML5","Express","MongoDB"],
+        "skills": ["ReactJS","CSS3","HTML5","ES6","React Hooks"],
         "github": "https://github.com/josebGithub/my-portfolio-website",
         "docs": "https://github.com/josebGithub/my-portfolio-website#readme",
         "demo": "https://vigilant-neumann-1f4d3d.netlify.app"
