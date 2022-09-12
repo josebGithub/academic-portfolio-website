@@ -1,5 +1,7 @@
 
-
+#about {
+        white-space: pre-line;
+}
 
 .about__container {
     display: grid;
