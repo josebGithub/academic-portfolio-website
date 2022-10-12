@@ -35,7 +35,7 @@
         "image": "myfoodmanager_home_page.jpg",
         "title":"My Food Manager (Project-CS683)",
         "description": "An Android application that allows users to manage their food, this app can keep track the inventory of the foods, the expiration date of the foods and the cost of the foods and provides notifications when the food items are going to expire.",
-        "skills": ["Android Studio","Java","Gradle"],
+        "skills": ["Android Studio","Java", "SQLite Database", "Gradle"],
         "github": "https://github.com/CS683-Mobile-Apps/cs683-project-josebGithub",
         "docs": "https://github.com/CS683-Mobile-Apps/cs683-project-josebGithub#readme",
         "demo": "https://drive.google.com/file/d/1c5L6N_0j0H8BgQXafM7Q67njThVG9yQo/view?usp=sharing"
@@ -53,7 +53,7 @@
       {
         "id": 6,
         "image": "mydiethub_home_page.jpg",
-        "title":"My Diet Hub(Project-CS673)",
+        "title":"My Diet Hub(Team Project-CS673)",
         "description": "It is an application that help the user to calculate their daily calorie counts, user can do the CRUD operations for their meals after login into the application. An admin can manage the user includes query, update and delete the user.",
         "skills": ["Python-Flask","USDA API","MVC","HTML5","CSS3","Jinja2","SQLite","Heroku"],
         "github": "https://github.com/BUMETCS673/BUMETCS673OLSum21P4",
@@ -64,7 +64,7 @@
         "id": 7,
         "image": "my_python_projects.jpg",
         "title":"Python Projects",
-        "description": "Five games namely Stopwatch,Pong,Memory,Blackjack and Spaceship are written in Python using CodeSkulptor",
+        "description": "Games Stopwatch, Pong, Memory, Blackjack and Spaceship are written in Python using CodeSkulptor",
         "skills": ["Python","CodeSkulptor"],
         "github": "none",
         "docs": "none",
