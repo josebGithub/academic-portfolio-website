@@ -13,7 +13,7 @@ const Navigation = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav('#')} classname={activeNav === '#' ? 'active' : ''} title="Home"><TiHomeOutline/></a>
+      <a href="#home" onClick={() => setActiveNav('#home')} classname={activeNav === '#home' ? 'active' : ''} title="Home"><TiHomeOutline/></a>
 
       <a href="#about" onClick={() => setActiveNav('#about')} classname={activeNav === '#about' ? 'active' : ''} title="About"><TiUser/></a>
 

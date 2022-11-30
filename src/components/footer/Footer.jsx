@@ -1,9 +1,6 @@
 import React from 'react'
 import '../../assets/css/footer.css'
 import '../../assets/css/header.css'
-import {SiLinkedin} from 'react-icons/si'
-import {FaGithubSquare} from 'react-icons/fa'
-import HContact from '../header/HContact'
 import HSocials from '../header/HSocials'
 
 const Footer = () => {

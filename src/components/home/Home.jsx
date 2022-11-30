@@ -4,8 +4,7 @@ import '../../assets/css/home.css';
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {fas} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {BsArrowDown} from 'react-icons/bs';
-import MYLOGO from '../../assets/images/my_logo.jpg';
+
 
 //library Creation
 library.add(fas);

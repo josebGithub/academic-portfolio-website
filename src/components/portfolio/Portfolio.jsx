@@ -34,14 +34,14 @@ const Portfolio = () => {
                     )}
                   </div>
                   <div className='portfolio__item-cta'>
-                      { (item.github !="none") ?
-                          <a href={item.github} className='btn btn-small' target='_blank'><BsGithub size={'1.1rem'}/> GITHUB</a> :null}
+                      { (item.github !=="none") ?
+                          <a href={item.github} className='btn btn-small' target='_blank' rel="noopener noreferrer"> <BsGithub size={'1.1rem'}/> GITHUB</a> :null}
                     
-                      { (item.docs !="none") ?
-                          <a href={item.docs} className='btn btn-small' target='_blank'><CgFileDocument size={'1rem'}/> DOCS</a> : null}
-
-                      { (item.demo !="none") ?
-                          <a href={item.demo} className='btn btn-small' target='_blank'><MdSmartDisplay size={15}/> DEMO</a> : null}
+                      { (item.docs !=="none") ?
+                          <a href={item.docs} className='btn btn-small' target='_blank' rel="noopener noreferrer"><CgFileDocument size={'1rem'}/> DOCS</a> : null}
+=
+                      { (item.demo !=="none") ?
+                          <a href={item.demo} className='btn btn-small' target='_blank' rel="noopener noreferrer"><MdSmartDisplay size={15}/> DEMO</a> : null}
                   </div>
                   
               </article>
