@@ -1,0 +1,100 @@
+{
+    "data" : [
+      {
+        "id": 1,
+        "className":  "vertical-timeline-element--education",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff"},
+        "contentArrowStyle": {"borderRight": "15px solid rgb(192, 226, 244)" },
+        "iconStyle": {"background": "rgb(33, 150, 243)", "color": "#fff" },
+        "icon": "IoSchoolOutline",
+        "date": "Sept 2020 - Mar 2020",
+        "title": "Master Of Science in Software Development",
+        "institution":"Boston University - MET",
+        "description": " As a master student in Software Development, I did many projects throughout my academic years with new technologies, skills and programming languages as well as developed expertise in agile software development techniques."
+      },
+      {
+        "id": 2,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(16, 204, 82)", "color": "#fff"},
+        "icon": "FiBookOpen",
+        "date": "April 2013 - July- 2020",
+        "title": "Self-Study",
+        "institution":"Coursera",
+        "description": " Finished the following courses from Coursera:\n1. Introduction to Software Testing - University of Minnesota.\n2. Programming Mobile Applications for Android Handheld Systems - Univeresity of Maryland.\n3. Computing with Data Analysis - John Hopkins University\n4. An Introduction to Interactive Programming in Python - Rice University"
+      },
+      {
+        "id": 3,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
+        "icon": "MdWorkOutline",
+        "date": "Aug 2019 - Jan 2021",
+        "title": "Technical Recruiter",
+        "institution":"Eworld Solution Inc.",
+        "description": "Identified and filled job openings and keeped records of applications. Communicated with the candidates and helped them to fill in the job openings. Developed and implemented the add-on google scripts for the management."
+      },
+      {
+        "id": 4,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
+        "icon": "MdWorkOutline",
+        "date": "June 2004 - Nov 2007",
+        "title": "Application Software Designer",
+        "institution":"Natural Convergence Inc.(Broadview Network)",
+        "description": "Designed and developed automated tools for the design group and product verification team. Designed and developed test automation tool for the web-based administration system of a carrier grade IP telephony service. Developed test plans and procedures to WebAdmin with different web traffic to provide comparative platform performance, performance testing and product scalability characterization. Analyst the results from the tests and generate reports to the management."
+      },
+      {
+        "id": 5,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"padding": "1rem,1rem,1rem,1rem", "background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
+        "icon": "MdWorkOutline",
+        "date": "2002",
+        "title": "Java Programmer(Contractor)",
+        "institution":"Isosceles Information Solutions Inc.(Canada)",
+        "description": "A project contracted with Environmental Canada. Recoded the application from ground-zero. Gathered, analyzed user requirements, added features and enhancements to apply user requirements. Deployed and installed the application in different platforms."
+      },
+      {
+        "id": 6,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
+        "icon": "MdWorkOutline",
+        "date": "1998 - 2000",
+        "title": "Software Developer/Tester<br/>(Contractor/Subcontractor)",
+        "institution":"NewSys Solutions Limited(Canada)",
+        "description": "1. Collected rquirements from users, analyzed them and applied them to the applications. Analyzed testing requirements and organized them into the documents. Wrote and executed test cases. Imported data and completed the data conversion from one platform to another.\n2. Converted the Inventory System to Year2000 compliance. Provided testing procedures and implemented the testing procedures for checking the convection.\n3. Solved the Year 2000 problem for the system and solved the problem of porting data in different platforms."
+      },
+      {
+        "id": 7,
+        "className": "vertical-timeline-element--work",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
+        "icon": "MdWorkOutline",
+        "date": "1995 - 1998",
+        "title": "Programmer/Programmer Analyst",
+        "institution":"In Hong Kong",
+        "description": "Details is in my resume. Had worked in two banks in Hong Kong. Mainly designed , coded, specified, documented and supported the banking system."
+      },
+      {
+        "id": 8,
+        "className": "vertical-timeline-element--education",
+        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
+        "iconStyle": { "background": "rgb(33, 150, 243)", "color": "#fff"},
+        "icon": "IoSchoolOutline",
+        "date": "1992 - 1994",
+        "title": "Bachelor Of Science",
+        "institution":"University Of Manitoba",
+        "description": "General Science degree focused in Computer Science."
+      }
+    ]
+}

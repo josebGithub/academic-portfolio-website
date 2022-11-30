@@ -1,0 +1,63 @@
+{
+    "Languages": [
+      {
+        "imageUrl": "python_18894.png",
+        "name": "Python"
+      },
+      {
+        "imageUrl": "java_22523.png",
+        "name": "Java"
+      },
+      {
+        "imageUrl": "javascript_icon_130900.png",
+        "name": "Javascript"
+      },
+      {
+        "imageUrl": "c_original_logo_icon_146611.png",
+        "name": "C"
+      },
+      {
+        "imageUrl": "file_type_php_icon_130266.png",
+        "name": "PHP"
+      } 
+    ],
+
+    "Front-End" : [
+        {"imageUrl" : "html_original_wordmark_logo_icon_146478.png",
+        "name" : "HTML5"
+        },
+        {"imageUrl" : "css_original_wordmark_logo_icon_146576.png",
+            "name" : "CSS3"
+        },
+        {"imageUrl" : "react_original_logo_icon_146374.png",
+            "name" : "React"
+        },
+        {"imageUrl" : "file_type_vue_icon_130078.png",
+            "name" : "Vue"
+        }
+    ],
+
+    "Back-End" : [
+      {"imageUrl" : "nodejs_original_wordmark_logo_icon_146412.png",
+      "name" : "NodeJS"
+      },
+      {"imageUrl" : "icons8-express-js-48.png",
+          "name" : "Express"
+      },
+      {"imageUrl" : "mongodb_original_wordmark_logo_icon_146425.png",
+          "name" : "MongoDB"
+      },
+      {"imageUrl" : "mysql_original_wordmark_logo_icon_146417.png",
+          "name" : "MySQL"
+      }
+  ],
+
+  "VCS" : [
+    {"imageUrl" : "git_original_wordmark_logo_icon_146510.png",
+    "name" : "Git"
+    }
+  ]
+
+
+
+  }
