@@ -35,13 +35,13 @@ const contact = () => {
             <MdOutlineMailOutline className='contact__option-icon'/>
             <h4>Email</h4>
             <h3>josbut@gmail.com</h3>
-            <a href="mailto:josbut@gmail.com" target="_blank" >Send a message</a>
+            <a href="mailto:josbut@gmail.com" target="_blank" rel="noopener noreferrer" >Send a message</a>
           </article>
 
           <article className="contact__option">
             <SiLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
-            <a href="https://linkedin.com" target="_blank" >Connect me</a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">Connect me</a>
           </article>
         </div>
 
