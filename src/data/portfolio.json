@@ -43,8 +43,8 @@
       {
         "id": 5,
         "image": "vehicle_builder_home_page.jpg",
-        "title":"Vehicle Builder (Project-CS665)",
-        "description": "It is an application that allows the user to add any combination of vehicle options to the vehicle, it will return the total price of the vehicle to the user. ",
+        "title":" Vehicle Builder Application (Project-CS665)",
+        "description": "It is an application that allows the user to add any combination of vehicle options like the design, packages and accessories to the vehicle, user can add it will return the total price of the vehicle to the user. ",
         "skills": ["Software Design","UML","Design patterns","Java","Apache Maven"],
         "github": "https://github.com/metcs/met-cs665-assignment-project-josebGithub",
         "docs": "https://github.com/metcs/met-cs665-assignment-project-josebGithub#readme",
@@ -62,20 +62,20 @@
       },
       {
         "id": 7,
-        "image": "my_python_projects.jpg",
-        "title":"Python Projects",
+        "image": "python_project_home_page.jpg",
+        "title":"Python Applications - (Self Study)",
         "description": "Games Stopwatch, Pong, Memory, Blackjack and Spaceship are written in Python using CodeSkulptor",
         "skills": ["Python","CodeSkulptor"],
         "github": "none",
         "docs": "none",
         "demo": "http://jbutprojects.blogspot.com/"
       },
-       {
+      {
         "id": 8,
-        "image": "portfolio_main_page.jpg",
+        "image": "moneyManagement_home_page.jpg",
         "title":"Money Management (Self-Study)",
-        "description": "It is a money management MERN application that will do the credit card statement analysis for the user to give the user an idea how are the money spent by categories or by stores.This is a self-study developed project and use Netlify to deploy the front end, don't deploy the back end as it needs cost of money",
-        "skills": ["ReactJS","CSS3","HTML5","JSX","ES6","React Hooks", "express", "nodejs", "mongodb"],
+        "description": "It is a money management MERN application that will do the credit card statement analysis for the user by categories or by stores.This is a self-study developed project and use Netlify to deploy the front end, don't deploy the back end as it needs cost of money",
+        "skills": ["ReactJS","CSS3","HTML5","ES6","React Hooks", "express", "nodejs", "mongodb"],
         "github": "https://github.com/josebGithub/MoneyManagement",
         "docs": "https://github.com/josebGithub/MoneyManagement/blob/main/README.md",
         "demo": "https://moonlit-maamoul-8f547e.netlify.app/"
