@@ -74,7 +74,7 @@
         "id": 8,
         "image": "moneyManagement_home_page.jpg",
         "title":"Money Management (Self-Study)",
-        "description": "It is a money management MERN application that will do the credit card statement analysis for the user by categories or by stores.This is a self-study developed project and use Netlify to deploy the front end, don't deploy the back end as it needs cost of money",
+        "description": "It is a money management MERN application that will do the credit card statement analysis for the user by categories or by stores.Use Netlify to deploy the front end, no back end deployment as it costs money",
         "skills": ["ReactJS","CSS3","HTML5","ES6","React Hooks", "express", "nodejs", "mongodb"],
         "github": "https://github.com/josebGithub/MoneyManagement",
         "docs": "https://github.com/josebGithub/MoneyManagement/blob/main/README.md",
