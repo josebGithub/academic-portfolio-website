@@ -39,9 +39,9 @@ const Portfolio = () => {
                     
                       { (item.docs !=="none") ?
                           <a href={item.docs} className='btn btn-small' target='_blank' rel="noopener noreferrer"><CgFileDocument size={'1rem'}/> DOCS</a> : null}
-=
+
                       { (item.demo !=="none") ?
-                          <a href={item.demo} className='btn btn-small' target='_blank' rel="noopener noreferrer"><MdSmartDisplay size={15}/> DEMO</a> : null}
+                          <a href={item.demo} className='btn btn-small' target='_blank' rel="noopener noreferrer"><MdSmartDisplay size={'15'}/> DEMO</a> : null}
                   </div>
                   
               </article>
