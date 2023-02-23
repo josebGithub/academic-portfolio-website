@@ -1,6 +1,6 @@
 nav {
   /*background : rgba(67, 199, 243, 0.362); */
-  background : rgba(215, 51, 128, 0.362);
+  background : rgba(43, 89, 227, 0.362);
   width: max-content; 
   display:block;
   padding: 0.7rem 1.7rem;
@@ -20,7 +20,7 @@ nav a {
     padding: 0.3rem;
     border-radius: 50%;
     display: flex;
-    color: var(--color-primary);
+    color: var(--color-white);
     font-size: 1.1rem;
 }
 
