@@ -20,7 +20,7 @@
    background: linear-gradient(
     45deg,
     transparent,
-    var(--color-pink),transparent
+    var(--color-primary-variant),transparent
    );
    display: grid;
    place-items: center;

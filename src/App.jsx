@@ -1,4 +1,5 @@
 import React from 'react'
+/*import Home from './components/home/Home_bk' */
 import Home from './components/home/Home'
 import Navigation from './components/navigation/Navigation'
 import About from './components/about/About'
@@ -16,7 +17,7 @@ const App = () => {
     <>
        {/* <Header /> */}
         <Navigation/>
-        { /* <Home/> */} 
+        <Home/>
         <About />
         <Portfolio />
         <Experience />

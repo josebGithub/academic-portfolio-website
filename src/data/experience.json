@@ -3,7 +3,7 @@
       {
         "id": 1,
         "className":  "vertical-timeline-element--education",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color": "#fff"},
         "contentArrowStyle": {"borderRight": "15px solid rgb(192, 226, 244)" },
         "iconStyle": {"background": "rgb(33, 150, 243)", "color": "#fff" },
         "icon": "IoSchoolOutline",
@@ -15,7 +15,7 @@
       {
         "id": 2,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color" : "#fff"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(16, 204, 82)", "color": "#fff"},
         "icon": "FiBookOpen",
@@ -27,7 +27,7 @@
       {
         "id": 3,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color" : "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
         "icon": "MdWorkOutline",
@@ -39,7 +39,7 @@
       {
         "id": 4,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color" : "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color" : "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
         "icon": "MdWorkOutline",
@@ -51,7 +51,7 @@
       {
         "id": 5,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"padding": "1rem,1rem,1rem,1rem", "background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"padding": "1rem,1rem,1rem,1rem", "background": "rgb(96, 162, 196)", "color": "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
         "icon": "MdWorkOutline",
@@ -63,7 +63,7 @@
       {
         "id": 6,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color": "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
         "icon": "MdWorkOutline",
@@ -75,7 +75,7 @@
       {
         "id": 7,
         "className": "vertical-timeline-element--work",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color": "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(233, 30, 99)", "color": "#fff"},
         "icon": "MdWorkOutline",
@@ -87,7 +87,7 @@
       {
         "id": 8,
         "className": "vertical-timeline-element--education",
-        "contentStyle": {"background": "rgb(192, 226, 244)", "color": "#fff", "fontFamily": "Poppins"},
+        "contentStyle": {"background": "rgb(96, 162, 196)", "color": "#fff", "fontFamily": "Poppins"},
         "contentArrowStyle": { "borderRight": "15px solid  rgb(192, 226, 244)" },
         "iconStyle": { "background": "rgb(33, 150, 243)", "color": "#fff"},
         "icon": "IoSchoolOutline",

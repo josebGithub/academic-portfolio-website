@@ -1,5 +1,5 @@
+
 import React from 'react';
-import Particle from '../../components/home/Particle'
 import '../../assets/css/home.css';
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {fas} from "@fortawesome/free-solid-svg-icons";
@@ -11,8 +11,18 @@ library.add(fas);
 
 const Home = () => {
     return (
-        <section id="home">
-            <Particle/>
+        <section id='home'>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
             <a href="#contact" className='scroll_down'>Scroll Down</a>
             <div className="my-logo">
                 <a className="myname" href="#about">JosephineBut</a>
@@ -24,6 +34,13 @@ const Home = () => {
                 <h3>Explore</h3>
                 <div className="menu-direction">
                     <div><FontAwesomeIcon icon={["fas", "angles-down"]} size="2x"/></div>
+                </div>
+                <div className="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </div> 
             </section>

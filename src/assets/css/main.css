@@ -13,7 +13,7 @@
 :root {
     --color-bg: #30306d;
     --color-bg-variant:#2c2c6c;
-    --color-primary: #4db5ff;
+   /* --color-primary: #4db5ff; */
     --color-primary-variant: rgba(77, 181,255, 0.4);
    --color-bg: #c0e6f4; 
    /**--color-bg: #61a5c2;  **/
@@ -46,6 +46,9 @@
     overflow-x: hidden;
 }
 
+div {
+    padding: 0px 0px 0px 0px;
+}
 
 html {
     scroll-behavior: smooth;
@@ -64,15 +67,15 @@ body {
    /* background: var(--color-bg); */
     color: var(--color-white);  /* text color */
     line-height: 1.7;
-    background: linear-gradient(#e56b70,#f56476,#61a5c2);
-    background: linear-gradient(#ec6f924e,#ef7986,#61a5c2);
+    background: linear-gradient(#587cba,#4a41c4,#61a5c2);
+    background: linear-gradient(#5c464c4e,#3f57be,#61a5c2);
     background-color: rgba(0, 0, 0, 0);
     background-position-x: 0%;
     background-position-y: 0%;
     background-repeat: repeat;
     background-attachment: scroll;
     /*background-image: linear-gradient(rgba(238, 157, 211, 0.429), rgb(227, 112, 125), rgb(97, 165, 194)); */
-    background-image: linear-gradient(rgba(208, 143, 186, 0.429), rgb(227, 112, 125), rgb(97, 165, 194));
+    background-image: linear-gradient(rgba(119,136,153), rgb(79, 126, 158), rgb(38, 41, 44));
     background-size: cover;
     /*background-image: url(../images/background.png);*/
     padding-bottom: env(safe-area-inset-bottom);
@@ -100,7 +103,7 @@ h5 {
 
 section {
     padding-top: 2rem!important;
-    padding-bottom: 2.5rem!important;
+    padding-bottom: 2.5rem!important; 
 }
 
 
@@ -120,7 +123,7 @@ section > h2 {
 
 p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-gray);
+    color: var(--color-bg);
     text-align: left;
 }
 
