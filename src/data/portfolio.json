@@ -45,7 +45,7 @@
         "image": "vehicle_builder_home_page.jpg",
         "title":" Vehicle Builder(Project-CS665)",
         "description": "It is an application that allows the user to add any combination of vehicle options like the design, packages and accessories to the vehicle, user can add it will return the total price of the vehicle to the user. ",
-        "skills": ["Software Design","UML","Design patterns","Java","Apache Maven"],
+        "skills": ["Software Design","UML","Design patterns","Java","Apache Maven", "Testing-Java"],
         "github": "https://github.com/metcs/met-cs665-assignment-project-josebGithub",
         "docs": "https://github.com/metcs/met-cs665-assignment-project-josebGithub#readme",
         "demo": "none"
@@ -55,7 +55,7 @@
         "image": "mydiethub_home_page.jpg",
         "title":"My Diet Hub(Team Project-CS673)",
         "description": "It is an application that help the user to calculate their daily calorie counts, user can do the CRUD operations for their meals after login into the application. An admin can manage the user includes query, update and delete the user.",
-        "skills": ["Python-Flask","USDA API","MVC","HTML5","CSS3","Jinja2","SQLite","Heroku"],
+        "skills": ["Python-Flask","USDA API","MVC","HTML5","CSS3","Jinja2","SQLite","Heroku", "Testing-Selenium"],
         "github": "https://github.com/BUMETCS673/BUMETCS673OLSum21P4",
         "docs": "https://github.com/BUMETCS673/BUMETCS673OLSum21P4#readme",
         "demo": "none"
