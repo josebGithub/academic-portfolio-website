@@ -43,7 +43,7 @@
       {
         "id": 5,
         "image": "vehicle_builder_home_page.jpg",
-        "title":" Vehicle Builder Application (Project-CS665)",
+        "title":" Vehicle Builder(Project-CS665)",
         "description": "It is an application that allows the user to add any combination of vehicle options like the design, packages and accessories to the vehicle, user can add it will return the total price of the vehicle to the user. ",
         "skills": ["Software Design","UML","Design patterns","Java","Apache Maven"],
         "github": "https://github.com/metcs/met-cs665-assignment-project-josebGithub",
